@@ -7,7 +7,7 @@ export default function () {
     
     useEffect(() => {
       const loadNews= async() =>{
-      const response = await axios.get("https://gnews.io/api/v4/top-headlines?category=general&apikey=78d6be771e1e9792df2333dcfba57b5c")
+      const response = await axios.get("https://gnews.io/api/v4/top-headlines?category=business&country=us&apikey=78d6be771e1e9792df2333dcfba57b5c")
       setNews(response.data.articles)
     };
     loadNews();
