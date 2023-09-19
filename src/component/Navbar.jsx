@@ -10,7 +10,7 @@ export default function Navbar() {
         setShowNavbar(!showNavbar)
       }
   return (
-    <nav className='flex w-full justify-between'>
+    <nav className='flex w-full justify-between pb-6'>
       <div className='flex items-center justify-between w-full gap-56'>
         <img src={logo} alt="" />
         {showNavbar ?
